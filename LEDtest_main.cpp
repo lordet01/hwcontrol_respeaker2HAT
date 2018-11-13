@@ -4,8 +4,9 @@
 
 
 int main(int argc, char **argv)
-{
-    spiLED_start(1000, 1, 20);
-    
+{   
+    printf("Start LED\n");
+    spiLED_start(200, 1, 20);
+    printf("Done!\n");
     return 0;
 }
