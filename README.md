@@ -19,8 +19,8 @@ sudo make install
       - g++ -o button button.cpp -l wiringPi   
    b) APA102 LED
       - g++ -o LEDtest LEDtest_main.cpp spiLED.h -l bcm2835
-
-
+      
+      
 References:
 [1] http://www.elec-tron.org/?page_id=1296
 [2] https://cpldcpu.wordpress.com/2014/11/30/understanding-the-apa102-superled/
